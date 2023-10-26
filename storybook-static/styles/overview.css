@@ -1,0 +1,45 @@
+/* Global Overview Story docs(mdx) styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table tr th:first-of-type {
+  text-align: left;
+}
+table tr td:not(:first-of-type) {
+  text-align: center;
+}
+table tr td div {
+  margin-left: 16px;
+}
+table tr th,
+table tr td {
+  border-bottom: 1px solid #424242;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+[data-arthur-block='description-list'] {
+  padding: 0;
+  margin: 0;
+}
+[data-arthur-block='description-list'] dt {
+  font-weight: 500;
+}
+[data-arthur-block='description-list'] dd {
+  padding: 0;
+  margin: 0;
+}
+
+[data-arthur-block='description-list'] dd > p {
+  margin-top: 0;
+}
+
+[data-arthur-section] {
+  padding-bottom: 64px;
+}
+/* [data-arthur-block='description-list'] dd:before { */
+/*   content: '-'; */
+/*   display: inline; */
+/* } */

@@ -1,0 +1,25 @@
+/* Storybook preview overrides */
+.sbdocs.sbdocs-wrapper .sbdocs.sbdocs-content h1 {
+  font-size: 33.1px;
+}
+.sbdocs.sbdocs-wrapper .sbdocs.sbdocs-content h2 {
+  font-size: 27.6px;
+}
+.sbdocs.sbdocs-wrapper .sbdocs.sbdocs-content h3 {
+  font-size: 23px;
+}
+.sbdocs.sbdocs-wrapper .sbdocs.sbdocs-content h4 {
+  font-size: 19.2px;
+}
+.sbdocs.sbdocs-wrapper .sbdocs.sbdocs-content h5 {
+  font-size: 16px;
+}
+.sbdocs.sbdocs-wrapper .sbdocs.sbdocs-content p,
+.sbdocs.sbdocs-wrapper .sbdocs.sbdocs-content ul li {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.sbdocs.sbdocs-wrapper .sbdocs.sbdocs-content hr {
+  border: none;
+  border-bottom: 1px solid #424242;
+}
