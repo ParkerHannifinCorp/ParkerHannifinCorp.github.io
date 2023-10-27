@@ -10,7 +10,7 @@ table tr th:first-of-type {
 table tr td:not(:first-of-type) {
   text-align: center;
 }
-table tr td div {
+:where(table:not(.docblock-argstable, .content-colors, .swatch-table)) tr td div {
   margin-left: 16px;
 }
 table tr th,
